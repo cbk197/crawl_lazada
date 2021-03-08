@@ -1,0 +1,10 @@
+{
+    "cookies": [],
+    "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en",
+        "User-Agent": "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0"
+    },
+    "lua_source": "\nfunction main(splash)\n    local num_scrolls = 10\n    local scroll_delay = 1.0\n    local scroll_to = splash:jsfunc(\"window.scrollTo\")\n    local get_body_height = splash:jsfunc(\n        \"function() {return document.body.scrollHeight;}\"\n    )\n    assert(splash:go(splash.args.url))\n    splash:wait(splash.args.wait)\n    for _ = 1, num_scrolls do\n        scroll_to(0, get_body_height())\n        splash:wait(scroll_delay)\n    end\n    return splash:html()\nend\n",
+    "url": "https://www.lazada.vn/tui-cho-nu/?spm=a2o4n.home.cate_10.5.1905e182nzY097"
+}

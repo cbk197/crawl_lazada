@@ -1,0 +1,13 @@
+Date: Thu, 07 Nov 2019 05:01:45 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding, Origin, Ali-Detector-Type, Ali-Hng, Accept-Encoding
+X-Server-Id: ims011017129127.lazada-sg.sg94
+X-Wh-Status: 404
+Cache-Control: max-age=0, s-maxage=145
+X-Readtime: 74
+Via: wormhole-cache011024034150.lazada-sg.os30[80,404-1280,M], wormhole-cache011021183243.lazada-sg.os30[0,404-0,H]
+X-Swift-Error: orig response 4XX error
+Content-Encoding: gzip
+Age: 6
+X-Cache: HIT TCP_MEM_HIT dirn:-2:-2
+Server: Tengine/Aserver

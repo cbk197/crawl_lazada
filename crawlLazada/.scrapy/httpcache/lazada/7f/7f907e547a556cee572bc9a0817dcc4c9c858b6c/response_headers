@@ -1,0 +1,17 @@
+Date: Thu, 07 Nov 2019 04:36:02 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding, Origin, Ali-Detector-Type, Ali-Hng, Accept-Encoding
+Vary: User-Agent
+X-Server-Id: ims011026087155.lazada-sg.os30
+Realpath: page/i/vn/act/home
+Cache-Control: max-age=0, s-maxage=146
+Cache-Control: no-transform
+Etag: W/"b1d4a-rnaid6R3RZv0jTb5rcHuQXM6hZA"
+X-Readtime: 178
+Via: wormhole-cache011017091084.lazada-sg.sg94[185,200-0,M], wormhole-cache011014043067.lazada-sg.sg94[194,200-0,M]
+Content-Encoding: gzip
+X-Cache: MISS TCP_MISS dirn:-2:-2 mlen:-1
+Server: Tengine/Aserver
+Eagleeye-Traceid: 0b1192a015731013625182351e18ab
+Strict-Transport-Security: max-age=31536000
+Timing-Allow-Origin: *

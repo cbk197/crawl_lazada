@@ -1,0 +1,13 @@
+{
+    "cookies": [],
+    "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en",
+        "Referer": "https://www.lazada.vn/",
+        "User-Agent": "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0"
+    },
+    "lua_source": "\nfunction main(splash, args)\n    splash:init_cookies(splash.args.cookies)\n    splash:go(args.url)\n    local scroll_to = splash:jsfunc(\"window.scrollTo\")\n    scroll_to(0, 1400)\n    assert(splash:wait(1))\n    scroll_to(0, 1400)\n    assert(splash:wait(1))\n    return {html = splash:html()}\n    \nend\n",
+    "timeout": 3600,
+    "url": "https://www.lazada.vn/do-dung-bu-sua-an-dam",
+    "wait": 2
+}

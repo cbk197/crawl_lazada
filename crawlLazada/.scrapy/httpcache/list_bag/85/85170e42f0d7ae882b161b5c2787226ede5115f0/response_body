@@ -1,0 +1,1 @@
+{"error": 400, "type": "ScriptError", "info": {"error": "float() argument must be a string or a number, not 'NoneType'", "type": "SPLASH_LUA_ERROR", "message": "[string \"...\"]:10: float() argument must be a string or a number, not 'NoneType'", "line_number": 10, "source": "[string \"...\"]"}, "description": "Error happened while executing Lua script"}
